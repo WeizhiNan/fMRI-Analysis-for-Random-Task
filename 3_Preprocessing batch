@@ -1,0 +1,7 @@
+#Matlab codes based on SPM fmri tool box 
+#preprocessing includes 5 steps:
+#1.slice timing to correct each slice into a same time point in each volume.
+#2.Realign to use 6 parameters(x,y,z,rotation x,y,z) to realign all slices to the first slice in each volume
+#3.Coregister to match the functional scan images to the anatomical scan image
+#4.Normaliazation to match the anatomical image of each subjects to the standard anatomical image, also for the functional images.
+#5.Smooth to exclude noise to increase the ratio of signal to noise
