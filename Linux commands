@@ -1,0 +1,2 @@
+count the files of the current directory
+ls -l |grep "^-"|wc -l
